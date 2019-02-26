@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bottomHome"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Home"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/bottomGet"
+        android:title="Get a estimate"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/bottomLocations"
+        android:title="Locations"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/bottomPhone"
+        android:title="Phone support"
+        app:showAsAction="always|withText" />
+</menu>
